@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(3, 30, 79);
+}
+
+@font-face {
+    font-family: micro;
+    src: url('micro.ttf');
+}
+
+@font-face {
+    font-family: fnt;
+    src: url(login/fnt.ttf);
+}
+.logo{
+    display: flex;
+    gap: 5px;
+    position: fixed;
+}
+
+.logo .name{
+    font-family: micro;
+    color: aliceblue;
+    font-size: xxx-large;
+    padding: 0;
+}
+
+.logo .name .sub{
+    position: relative;
+    top: -15px;
+    padding: 0;
+    font-size: x-large;
+}
+
+.logo img{
+    position: relative;
+    top: 15px;
+}
+
+.profile{
+    width: fit-content;
+    position: fixed;
+    right: 0;
+    margin: 10px;
+}
+.profile img{
+    border-radius: 100%;
+}
+
+.top_nav{
+    position: fixed;
+    top: 0;
+}
+
+.cont{
+    display: flex;
+    margin-top: 80px;
+    flex-grow: 1;
+}
+
+.list_worker{
+    border-right: solid 1px rgb(105, 98, 98);
+    min-width: 300px;
+    height: calc(100vh - 100px);
+}
+
+.list_nodes{
+    border-right: solid 1px rgb(105, 98, 98);
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+
+.list_conf{
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+
+.cont{
+    font-family: fnt;
+}
+
+.cont .hed{
+    color: aliceblue;
+    margin: 20px;
+    font-weight: 700;
+}
+
+.worker,.node{
+    margin: 5px;
+    padding-left: 5px;
+    color: rgb(28, 30, 30);
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.worker:hover,.node:hover{
+    background-color: rgb(156, 184, 211);
+}
+
+.add_elm{
+    margin-left: 30px;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+
+.selected_elm{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#obj{
+    height: 350px;
+}
+
+.list_conf .key{
+    font-size: larger;
+    color: aliceblue;
+    margin-left: 20px;
+}
+
+.list_conf .val{
+    font-size: medium;
+    color: antiquewhite;
+}
+
+.list_conf .key,.val{
+    font-family: fnt;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>socnet</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        border: 0;
+        overflow: hidden;
+    }
+    .left{
+        width: 70vw;
+        height: 100vh;
+        background-color: rgb(3, 30, 79);
+    }
+    .right{
+        /* width: 30vw;
+        height: 100vh; */
+        width: 30vw;
+        height: 100vh;
+        background-color: rgb(4, 73, 50);
+    }
+    .cont{
+        display: flex;
+        gap: 0px;
+        flex-grow: 1;
+    }
+    @font-face {
+        font-family: fnt;
+        src: url(fnt.ttf);
+    }
+    .login_txt{
+        font-family: fnt;
+        color: aliceblue;
+        width: fit-content;
+        margin: auto;
+    }
+    .login_btn{
+        background-color: rgb(30, 28, 28);
+        border-radius: 30px;
+        width: fit-content;
+        padding: 10px;
+        display: flex;
+        gap: 50px;
+        color: aliceblue;
+        font-family: fnt;
+        font-size: x-large;
+        margin: auto;
+        cursor: pointer;
+    }
+    .login_btn img{
+        position: relative;
+        top: 3px;
+    }
+    .left{
+        padding-top: 40vh;
+    }
+    .right{
+        background-image: url('back.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+<body>
+    <div class="cont">
+    <div class="left">
+        <div class="login_txt">Hey, login to identify you</div>
+        <div class="login_btn">
+            <img src="google.png" width="30px" height="30px" alt="">
+            <div class="txt">Login with google</div>
+        </div>
+    </div>
+    <div class="right"></div>
+</div>
+</body>
+</html>

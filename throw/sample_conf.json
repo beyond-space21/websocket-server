@@ -1,0 +1,7 @@
+{
+    "recieve":true,
+    "send":true,
+    "recieve-from":[],
+    "send-to":[],
+    "cross-network":false
+}

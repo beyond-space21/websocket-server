@@ -1,0 +1,13 @@
+{
+    "$userID":[{
+        "networks":[]
+    }],
+    "$networks":[{
+        "nodes":[]
+    }],
+    "$nodes":[{
+        "conf":{
+            
+        }
+    }]
+}
